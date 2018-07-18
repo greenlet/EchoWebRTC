@@ -29,6 +29,8 @@
 		8521B88F20E382AB0004C978 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850DBC8420D1767F00736EE8 /* CoreAudio.framework */; };
 		8521CA5B20D150B700C3F9F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8521CA5A20D150B700C3F9F0 /* main.cpp */; };
 		8521CA5E20D150D800C3F9F0 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8521CA5C20D150D800C3F9F0 /* stdafx.cpp */; };
+		85D92ED22175C57900EDB605 /* vad_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D92ED02175C57900EDB605 /* vad_test.cpp */; };
+		85D92ED32175C57900EDB605 /* vad_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D92ED02175C57900EDB605 /* vad_test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +77,8 @@
 		8521CA5A20D150B700C3F9F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8521CA5C20D150D800C3F9F0 /* stdafx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		8521CA5D20D150D800C3F9F0 /* stdafx.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stdafx.hpp; sourceTree = "<group>"; };
+		85D92ED02175C57900EDB605 /* vad_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vad_test.cpp; sourceTree = "<group>"; };
+		85D92ED12175C57900EDB605 /* vad_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vad_test.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 		8521CA3F20D149C400C3F9F0 = {
 			isa = PBXGroup;
 			children = (
+				85D92ED12175C57900EDB605 /* vad_test.hpp */,
+				85D92ED02175C57900EDB605 /* vad_test.cpp */,
 				8521CA5D20D150D800C3F9F0 /* stdafx.hpp */,
 				8521CA5C20D150D800C3F9F0 /* stdafx.cpp */,
 				8521CA5A20D150B700C3F9F0 /* main.cpp */,
@@ -223,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D92ED32175C57900EDB605 /* vad_test.cpp in Sources */,
 				8521B88720E382AB0004C978 /* main.cpp in Sources */,
 				8521B88820E382AB0004C978 /* stdafx.cpp in Sources */,
 				8505411020E67046004DFF6D /* base_object.cpp in Sources */,
@@ -236,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D92ED22175C57900EDB605 /* vad_test.cpp in Sources */,
 				8521CA5B20D150B700C3F9F0 /* main.cpp in Sources */,
 				8521CA5E20D150D800C3F9F0 /* stdafx.cpp in Sources */,
 				8505410F20E67046004DFF6D /* base_object.cpp in Sources */,
